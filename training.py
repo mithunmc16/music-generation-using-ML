@@ -25,10 +25,7 @@ import numpy
 Keras is the library which we will use to train the model.
 """
 from keras.models import Sequential
-from keras.layers import Dense
-from keras.layers import Dropout
-from keras.layers import LSTM
-from keras.layers import Activation
+from keras.layers import *
 from keras.utils import np_utils
 from keras.callbacks import ModelCheckpoint
 
